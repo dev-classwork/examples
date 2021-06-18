@@ -1,4 +1,4 @@
-function getDefaultNumber(mult, canNegative){
+function getDefaultNumber(mult: number, canNegative: boolean){
  let n = 1;
  n = mult * n;
 
@@ -9,7 +9,7 @@ function getDefaultNumber(mult, canNegative){
  return n;
 }; 
 
-function getDefaultString(add){
+function getDefaultString(add: string){
  let s = "Hello, ";
  return s + add;
 }; 
